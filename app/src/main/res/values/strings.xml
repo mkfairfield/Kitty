@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kitty</string>
+    <string name="welcome_to_kitty">Welcome to Kitty!</string>
+
+    <string name="person">Inventory</string>
+    <string name="treasure">Party Loot</string>
+    <string name="armor">Equipment</string>
+    <string name="add_item_button">add item button</string>
+    <string name="add_loot">add loot</string>
+
+
+</resources>

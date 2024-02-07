@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/white" >
+
+    <!-- Custom background for selected items -->
+
+
+    <item >
+
+        <!-- res/drawable/nav_item_background.xml -->
+        <selector>
+
+            <!-- Background for the selected item -->
+            <item android:state_checked="true">
+                <inset
+                    android:insetTop="4dp"
+                    android:insetBottom="4dp"
+                    android:insetLeft="10dp"
+                    android:insetRight="10dp">
+
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/semi_transparent_white"/>
+                        <corners android:radius="10dp" />
+                    </shape>
+                </inset>
+
+
+
+            </item>
+            <!-- Background for the default/unselected item -->
+
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </selector>
+
+
+    </item>
+
+</ripple>

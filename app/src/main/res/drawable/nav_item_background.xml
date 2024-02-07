@@ -1,0 +1,21 @@
+
+<!-- res/drawable/nav_item_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background for the selected item -->
+            <item android:state_active="true">
+                <inset
+                    android:insetTop="4dp"
+                    android:insetBottom="4dp"
+                    android:insetLeft="10dp"
+                    android:insetRight="10dp">
+
+                </inset>
+
+                <shape android:shape="rectangle">
+                    <corners android:radius="0dp" />
+                </shape>
+
+            </item>
+            <!-- Background for the default/unselected item -->
+    </selector>

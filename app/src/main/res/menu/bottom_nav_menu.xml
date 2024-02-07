@@ -1,0 +1,28 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_person"
+        android:icon="@drawable/bag_100px"
+        android:title="@string/person"
+                     />
+
+
+
+    <item
+        android:id="@+id/nav_treasure"
+        android:icon="@drawable/ic_treasure_open100px"
+        android:title="@string/treasure"
+        android:checkable="true" />
+
+
+    <item
+        android:id="@+id/nav_armor"
+        android:icon="@drawable/equipment100px"
+        android:title="@string/armor"
+        android:checkable="true"
+        />
+
+
+
+
+</menu>
